@@ -30,9 +30,19 @@ namespace FizzBuzzTest
             {
                 return "FizzBuzz";
             }
+
             //If the number is divisble by only 3 return Fizz
             else if (number % 3 == 0)
+            {
                 return "Fizz";
+            }
+
+            // If the number is divisible by 5 return Buzz
+            else if (number % 5 == 0)
+            {
+                return "Buzz";
+            }
+            
             else
             {
                 return "test";
