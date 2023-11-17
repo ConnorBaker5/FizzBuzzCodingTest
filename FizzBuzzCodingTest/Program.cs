@@ -17,12 +17,15 @@ namespace FizzBuzzTest
             {
                 string result = FindFizzBuzz(number);
 
+                //Output result
                 Console.WriteLine(result);
             }
+            //Stop to show result
             Console.ReadLine();
         }
 
         //Function to find if the value is divisible by 3, 5 or both
+        //Using a function also makes the code reusable and also more testable as the problem is broken down
         public static string FindFizzBuzz(int number)
         {
             //If the number is divisible by both 3 and 5 we need to return FizzBuzz
