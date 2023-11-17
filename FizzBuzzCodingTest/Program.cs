@@ -45,7 +45,7 @@ namespace FizzBuzzTest
             
             else
             {
-                return "test";
+                return number.ToString();
             }
         }
     }
