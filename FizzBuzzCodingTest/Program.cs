@@ -19,12 +19,20 @@ namespace FizzBuzzTest
 
                 Console.WriteLine(result);
             }
+            Console.ReadLine();
         }
 
         //Function to find if the value is divisible by 3, 5 or both
         public static string FindFizzBuzz(int number)
         {
-            return "test";
+            if (number % 3 == 0 && number % 5 == 0)
+            {
+                return "FizzBuzz";
+            }
+            else
+            {
+                return "test";
+            }
         }
     }
 }
